@@ -28,19 +28,21 @@ class MainViewController: UIViewController {
         setupname3Button()
         setupname4Button()
         
-        memberImageView  =  UIImageView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height / 3))
+        memberImageView  =  UIImageView(frame: CGRect(x: 0, y: 0, width: view.frame.width / 2, height: view.frame.height / 3))
         memberImageView.center = CGPoint(x: view.frame.width / 2, y: view.frame.height / 3)
         memberImageView.image = UIImage(named: "kianago")
-        memberImageView.contentMode = .scaleAspectFit
+        //memberImageView.contentMode = .scaleAspectFit
         view.addSubview(memberImageView)
 
     }
     
-   // private func getRandomPerson() {
-      //  let totalNumber = Constants.names.count
-        // generate random number between 1 and total number
-       // arc4random()
-   // }
+    private func getRandomPerson() {
+        guard let totalNumbrer = Constants.names.count else {
+            
+        }
+    
+    }
+
 
     func setupname1Button () {
         name1Button = UIButton (frame: CGRect(x: 90, y: view.frame.height - 290, width: view.frame.width - 160, height: 50))
