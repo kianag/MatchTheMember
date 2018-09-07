@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CF1907BF2141150D00EA8995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1907BE2141150D00EA8995 /* AppDelegate.swift */; };
-		CF1907C12141150D00EA8995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1907C02141150D00EA8995 /* ViewController.swift */; };
+		CF1907C12141150D00EA8995 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1907C02141150D00EA8995 /* StartViewController.swift */; };
 		CF1907C42141150D00EA8995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1907C22141150D00EA8995 /* Main.storyboard */; };
 		CF1907C62141150F00EA8995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1907C52141150F00EA8995 /* Assets.xcassets */; };
 		CF1907C92141150F00EA8995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1907C72141150F00EA8995 /* LaunchScreen.storyboard */; };
 		CF1907D42141150F00EA8995 /* MP1_Match_The_Members_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1907D32141150F00EA8995 /* MP1_Match_The_Members_Tests.swift */; };
 		CF1907DF2141150F00EA8995 /* MP1_Match_The_Members_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1907DE2141150F00EA8995 /* MP1_Match_The_Members_UITests.swift */; };
+		CF1907ED2142034500EA8995 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1907EC2142034500EA8995 /* MainViewController.swift */; };
+		CF1907EF214209F800EA8995 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1907EE214209F800EA8995 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		CF1907BB2141150D00EA8995 /* MP1-Match The Members!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MP1-Match The Members!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1907BE2141150D00EA8995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF1907C02141150D00EA8995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF1907C02141150D00EA8995 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		CF1907C32141150D00EA8995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF1907C52141150F00EA8995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF1907C82141150F00EA8995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		CF1907DA2141150F00EA8995 /* MP1-Match The Members!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MP1-Match The Members!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1907DE2141150F00EA8995 /* MP1_Match_The_Members_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP1_Match_The_Members_UITests.swift; sourceTree = "<group>"; };
 		CF1907E02141150F00EA8995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1907EC2142034500EA8995 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CF1907EE214209F800EA8995 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				CF1907BE2141150D00EA8995 /* AppDelegate.swift */,
-				CF1907C02141150D00EA8995 /* ViewController.swift */,
+				CF1907C02141150D00EA8995 /* StartViewController.swift */,
+				CF1907EE214209F800EA8995 /* Constants.swift */,
 				CF1907C22141150D00EA8995 /* Main.storyboard */,
 				CF1907C52141150F00EA8995 /* Assets.xcassets */,
 				CF1907C72141150F00EA8995 /* LaunchScreen.storyboard */,
 				CF1907CA2141150F00EA8995 /* Info.plist */,
+				CF1907EC2142034500EA8995 /* MainViewController.swift */,
 			);
 			path = "MP1-Match The Members!";
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF1907C12141150D00EA8995 /* ViewController.swift in Sources */,
+				CF1907ED2142034500EA8995 /* MainViewController.swift in Sources */,
+				CF1907C12141150D00EA8995 /* StartViewController.swift in Sources */,
 				CF1907BF2141150D00EA8995 /* AppDelegate.swift in Sources */,
+				CF1907EF214209F800EA8995 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
