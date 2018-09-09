@@ -15,7 +15,7 @@
 		CF1907D42141150F00EA8995 /* MP1_Match_The_Members_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1907D32141150F00EA8995 /* MP1_Match_The_Members_Tests.swift */; };
 		CF1907DF2141150F00EA8995 /* MP1_Match_The_Members_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1907DE2141150F00EA8995 /* MP1_Match_The_Members_UITests.swift */; };
 		CF1907ED2142034500EA8995 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1907EC2142034500EA8995 /* MainViewController.swift */; };
-		CF1907EF214209F800EA8995 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1907EE214209F800EA8995 /* Constants.swift */; };
+		CF65EC1D21448F2D00A407F6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65EC1C21448F2D00A407F6 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		CF1907DE2141150F00EA8995 /* MP1_Match_The_Members_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP1_Match_The_Members_UITests.swift; sourceTree = "<group>"; };
 		CF1907E02141150F00EA8995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF1907EC2142034500EA8995 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		CF1907EE214209F800EA8995 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CF65EC1C21448F2D00A407F6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 			children = (
 				CF1907BE2141150D00EA8995 /* AppDelegate.swift */,
 				CF1907C02141150D00EA8995 /* StartViewController.swift */,
-				CF1907EE214209F800EA8995 /* Constants.swift */,
 				CF1907C22141150D00EA8995 /* Main.storyboard */,
+				CF65EC1C21448F2D00A407F6 /* Constants.swift */,
 				CF1907C52141150F00EA8995 /* Assets.xcassets */,
 				CF1907C72141150F00EA8995 /* LaunchScreen.storyboard */,
 				CF1907CA2141150F00EA8995 /* Info.plist */,
@@ -265,7 +265,7 @@
 				CF1907ED2142034500EA8995 /* MainViewController.swift in Sources */,
 				CF1907C12141150D00EA8995 /* StartViewController.swift in Sources */,
 				CF1907BF2141150D00EA8995 /* AppDelegate.swift in Sources */,
-				CF1907EF214209F800EA8995 /* Constants.swift in Sources */,
+				CF65EC1D21448F2D00A407F6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
